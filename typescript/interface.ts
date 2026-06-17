@@ -17,3 +17,7 @@ let emp2 : Employee = {
     sal : 98765,
     eid : 101
 }
+
+
+
+
