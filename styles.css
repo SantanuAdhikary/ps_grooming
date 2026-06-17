@@ -1,0 +1,92 @@
+
+h4{
+    color:blue;
+}
+
+#heading5{
+    color:brown;
+}
+
+.dark{
+    background-color: black;
+    color:white
+}
+
+
+#login{
+    background-color: green;
+}
+
+#login:hover{
+    background-color: red;
+    color:cyan;
+}
+
+#inp1{
+    outline: none;
+}
+
+#inp1:focus{
+
+    background-color: brown;
+    border: 2px solid blue;
+}
+
+
+#heading1{
+
+    border: 2px solid black;
+    padding: 10px;
+    margin: 50px;
+}
+
+#profileCard{
+
+    background-color: red;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    border: 3px solid blue;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 3px 4px 5px black;
+    margin: 20px;
+}
+
+/* making image round */
+img{
+    height: 150px;   
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+
+#circle{
+    height: 200px;
+    width: 200px;
+    background-color: purple; 
+    transition: all 1s ease-in 1s;
+}
+
+#circle:hover{
+  
+    background-color: red;
+}
+
+
+
+#grooming{
+    text-align: center  ;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    text-shadow: -10px -4px 6px blue;
+}
+
+
+#para1{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

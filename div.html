@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+         }
+
+         #nav{
+            background-color: black;
+            height: 80px;
+            color:white;
+            display: flex;        
+            align-items: center;
+         }
+
+
+         #main{
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:20px;
+            background-color: burlywood;
+            flex-direction: column;
+         }
+
+
+         .footer{
+            height: calc(100vh - 280px);
+            background-color: red;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+         }
+
+         .footer > .card{
+            height: 200px;
+            width: 300px;
+            text-align: center;
+            padding-top: 20px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 1px 3px 4px black;
+         }
+    </style>
+</head>
+<body>
+    
+    <div id="nav">
+        <h1>protechsoftLogo</h1>
+    </div>
+
+    <div id="main">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        <button>get started</button>
+    </div>
+
+    <div class="footer">
+         <div class="card">card1</div>
+         <div class="card">card2</div>
+         <div class="card">card3</div>
+    </div>
+</body>
+</html>
